@@ -1,0 +1,12 @@
+<dependencies>
+	<dependency>
+		<label>Moonshine-IDE</label>
+		<url>https://github.com/prominic/Moonshine-IDE</url>
+		<purpose>Moonshine IDE and shared projects' code</purpose>
+	</dependency>
+	<dependency>
+		<label>Moonshine-SDK-Installer</label>
+		<url>https://github.com/prominic/Moonshine-SDK-Installer</url>
+		<purpose>Shared code for Getting Started tab.</purpose>
+	</dependency>
+</dependencies>
