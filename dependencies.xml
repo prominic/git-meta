@@ -12,5 +12,10 @@
 			<url>https://github.com/prominic/Moonshine-SDK-Installer</url>
 			<purpose>Shared code for Getting Started tab.</purpose>
 		</dependency>
+		<dependency>
+			<label>Test Dependency</label>
+			<url>https://github.com/prominic/Moonshine-SDK-Installer</url>
+			<purpose>Test One</purpose>
+		</dependency>
 	</dependencies>
 </root>
