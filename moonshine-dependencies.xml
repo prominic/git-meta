@@ -9,7 +9,7 @@ Moonshine-IDE will display them to the user after this project has been cloned o
     -->
     <label>Prominic.NET Projects on GitHub</label>
     <!-- A longer description of the purpose of this dependency list -->
-    <description>Moonshine-IDE and its supporting project.</description>
+    <description>A list of the main Prominic projects on GitHub.</description>
     <!-- The list of dependencies for the project.  These should be listed in the order that they should be displayed in the interface. -->
     <dependencies>
         <!-- Moonshine-IDE related projects -->
