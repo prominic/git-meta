@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- moonshine-dependencies.xml
+This file defines related repositories that may be of interest to the user.
+Moonshine-IDE will display them to the user after this project has been cloned or checked out.
+-->
+<root>
+    <!-- 
+    The label for the dependency list as it should appear in the Repository Manager Interface.
+    -->
+    <label>Prominic.NET Projects on GitHub</label>
+    <!-- A longer description of the purpose of this dependency list -->
+    <description>Moonshine-IDE and its supporting project.</description>
+    <!-- The list of dependencies for the project.  These should be listed in the order that they should be displayed in the interface. -->
+    <dependencies>
+        <!-- Moonshine-IDE related projects -->
+        <!-- Note that I did not mention the dependency projects - I expect
+        these to be identified with the moonshine-dependencies.xml file in the
+        corresponding projects. -->
+        <dependency>
+            <!-- The label of this dependency as it should appear in the dependency list -->
+            <label>Moonshine-IDE</label>
+            <!-- The type of the repository.  "git" or "svn" -->
+            <repo-type>git</repo-type>
+            <!-- The URL of the repository -->
+            <url>https://github.com/prominic/Moonshine-IDE</url>
+            <!-- A longer description of the dependency -->
+            <description>Core Moonshine-IDE code.</description>
+        </dependency>
+        <dependency>
+            <label>Moonshine SDK Installer</label>
+            <repo-type>git</repo-type>
+            <url>https://github.com/prominic/Moonshine-SDK-Installer</url>
+            <description>Application to install SDKs and other applications used by Moonshine.</description>
+        </dependency>
+        <dependency>
+            <label>XHTMLConverterCLI</label>
+            <repo-type>git</repo-type>
+            <url>https://github.com/prominic/XHTMLConverterCLI</url>
+            <description>Desktop application to convert Visual Editor XML files to PrimeFaces XHTML.</description>
+        </dependency>
+
+
+        <!-- Grails Projects -->
+        <dependency>
+            <label>grails4-primefaces</label>
+            <repo-type>git</repo-type>
+            <url>https://github.com/prominic/grails4-primefaces</url>
+            <description>Run PrimeFaces pages in a Grails 4 application.</description>
+        </dependency>
+        <dependency>
+            <label>grails3-primefaces</label>
+            <repo-type>git</repo-type>
+            <url>https://github.com/prominic/grails3-primefaces</url>
+            <description>Run PrimeFaces pages in a Grails 3 application.</description>
+        </dependency>
+
+        <!-- Domino Projects -->
+        <dependency>
+            <label>DominoHelp.com</label>
+            <repo-type>git</repo-type>
+            <url>https://github.com/prominic/dominohelp</url>
+            <description>Source code for dominohelp.com website.</description>
+        </dependency>
+    </dependencies>
+</root>
+
